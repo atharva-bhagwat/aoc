@@ -17,7 +17,7 @@ def part1():
             return
 
 def calc_sum(n):
-    return sum(list(range(n+1)))
+    return n*(n+1)/2
 
 def part2():
     prev_cost = float('inf')
